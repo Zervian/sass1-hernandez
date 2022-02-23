@@ -1,0 +1,93 @@
+
+// variables
+
+
+$bordes: rgb(255, 92, 88);
+
+// generales
+
+header { 
+    font-family: "zaha";
+    width: 100%;
+    background-color: white;
+    border-bottom: ridge 2px $bordes ;
+    position: sticky;
+    padding-bottom: 5px;
+    top: 0px;
+    z-index:1;
+
+            a:hover{
+             color: salmon;
+            }
+   
+}
+
+
+
+
+nav{
+    height: 100%;  
+}
+
+
+
+
+main {
+    font-family: "zaha";
+    font-size: 15px;
+
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+footer {
+    font-family: "zaha";
+    font-size: 15px;
+    background-color: #BB6464  ;
+    border-top: ridge 2px $bordes;
+    height: 60px;
+    padding-top: 10px;
+    
+    
+}
+
+
+h2 {
+
+    font-family: "cuerpo";
+    font-size: 25px;
+    
+}
+
+
+p {
+    font-style: italic;    
+          /* Todos los parrafos son descriptivos */
+ 
+       
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+hr {
+    margin: 0% 20%;
+    justify-items: center;
+}
+
+section p {
+    margin: 0% 20px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 50px;
+}
